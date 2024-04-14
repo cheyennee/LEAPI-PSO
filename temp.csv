@@ -1,0 +1,9 @@
+﻿编号,缺陷接口,链接或描述,缺陷个数,是否确认,是否是边缘测试样本
+56367,torch.clamp,https://github.com/pytorch/pytorch/pull/56367,1,是,否
+83244,torch.nn.Upsample,https://github.com/pytorch/pytorch/issues/83244,4,是,否
+83311,torch.cholesky_inverse,https://github.com/pytorch/pytorch/issues/83311,1,是,否
+83314,torch.equal,https://github.com/pytorch/pytorch/issues/83314,1,是,否
+74236,torch.histogram,https://github.com/pytorch/pytorch/issues/74236,1,是,否
+70675,torch.index_select,https://github.com/pytorch/pytorch/issues/70675,1,是,否
+83062,torch.nn.AdaptiveAvgPool2d,https://github.com/pytorch/pytorch/issues/83062,1,是,是
+83063,torch.nn.AdaptiveMaxPool{2|3}d,https://github.com/pytorch/pytorch/issues/83063,2,是,是
