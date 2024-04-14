@@ -7,3 +7,7 @@
 70675,torch.index_select,https://github.com/pytorch/pytorch/issues/70675,1,是,否
 83062,torch.nn.AdaptiveAvgPool2d,https://github.com/pytorch/pytorch/issues/83062,1,是,是
 83063,torch.nn.AdaptiveMaxPool{2|3}d,https://github.com/pytorch/pytorch/issues/83063,2,是,是
+83071,torch.nn.functional.adaptive_max_pool{1|2|3}d,https://github.com/pytorch/pytorch/issues/83071,3,是,是
+83318,torch.lu_solve,https://github.com/pytorch/pytorch/issues/83318,1,是,否
+83160,"torch.nn.functional.rrelu_
+torch.nn.functional.rrelu",https://github.com/pytorch/pytorch/issues/83160,2,是,是
