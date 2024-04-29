@@ -1,57 +1,57 @@
-﻿编号,缺陷接口,链接或描述,缺陷个数,是否确认,是否是边缘测试样本
-56367,torch.clamp,https://github.com/pytorch/pytorch/pull/56367,1,是,否
-83244,torch.nn.Upsample,https://github.com/pytorch/pytorch/issues/83244,4,是,否
-83311,torch.cholesky_inverse,https://github.com/pytorch/pytorch/issues/83311,1,是,否
-83314,torch.equal,https://github.com/pytorch/pytorch/issues/83314,1,是,否
-74236,torch.histogram,https://github.com/pytorch/pytorch/issues/74236,1,是,否
-70675,torch.index_select,https://github.com/pytorch/pytorch/issues/70675,1,是,否
-83062,torch.nn.AdaptiveAvgPool2d,https://github.com/pytorch/pytorch/issues/83062,1,是,是
-83063,torch.nn.AdaptiveMaxPool{2|3}d,https://github.com/pytorch/pytorch/issues/83063,2,是,是
-83071,torch.nn.functional.adaptive_max_pool{1|2|3}d,https://github.com/pytorch/pytorch/issues/83071,3,是,是
-83318,torch.lu_solve,https://github.com/pytorch/pytorch/issues/83318,1,是,否
+﻿编号,缺陷接口,链接或描述,缺陷个数,是否是边缘测试样本,是否被修复,是否新发现
+56367,torch.clamp,https://github.com/pytorch/pytorch/pull/56367,1,否,是,否
+83244,torch.nn.Upsample,https://github.com/pytorch/pytorch/issues/83244,4,否,是,是
+83311,torch.cholesky_inverse,https://github.com/pytorch/pytorch/issues/83311,1,否,是,是
+83314,torch.equal,https://github.com/pytorch/pytorch/issues/83314,1,否,是,是
+74236,torch.histogram,https://github.com/pytorch/pytorch/issues/74236,1,否,是,否
+70675,torch.index_select,https://github.com/pytorch/pytorch/issues/70675,1,否,是,否
+83062,torch.nn.AdaptiveAvgPool2d,https://github.com/pytorch/pytorch/issues/83062,1,是,是,是
+83063,torch.nn.AdaptiveMaxPool{2|3}d,https://github.com/pytorch/pytorch/issues/83063,2,是,是,是
+83071,torch.nn.functional.adaptive_max_pool{1|2|3}d,https://github.com/pytorch/pytorch/issues/83071,3,是,是,是
+83318,torch.lu_solve,https://github.com/pytorch/pytorch/issues/83318,1,否,是,是
 83160,"torch.nn.functional.rrelu_
-torch.nn.functional.rrelu",https://github.com/pytorch/pytorch/issues/83160,2,是,是
-64038,torch.nn.functional.softmax _stacklevel,https://github.com/pytorch/pytorch/issues/64038,1,是,否
-83163,torch.nn.functional.log_softmax,https://github.com/pytorch/pytorch/issues/83163,1,是,否
-83224,torch.nn.MaxPool1d,https://github.com/pytorch/pytorch/issues/83224,1,是,否
+torch.nn.functional.rrelu",https://github.com/pytorch/pytorch/issues/83160,2,是,是,是
+64038,torch.nn.functional.softmax _stacklevel,https://github.com/pytorch/pytorch/issues/64038,1,否,是,否
+83163,torch.nn.functional.log_softmax,https://github.com/pytorch/pytorch/issues/83163,1,否,是,是
+83224,torch.nn.MaxPool1d,https://github.com/pytorch/pytorch/issues/83224,1,否,是,是
 83229,"torch.nn.MaxUnpool2d
-torch.nn.MaxUnpool3d",https://github.com/pytorch/pytorch/issues/83229,2,否,否
-83238,torch.nn.TripletMarginLoss,https://github.com/pytorch/pytorch/issues/83238,1,否,否
-83241,torch.nn.TripletMarginLoss,https://github.com/pytorch/pytorch/issues/83241,1,否,否
-83060,torch.empty_strided,https://github.com/pytorch/pytorch/issues/83060,1,否,否
-83153,torch.nn.Hardtanh,https://github.com/pytorch/pytorch/issues/83153,1,否,否
-83325,torch.nn.MaxPool1d,https://github.com/pytorch/pytorch/issues/83325,1,是,否
-67827,"torch.nn.MaxUnpool{1,2,3}d",https://github.com/pytorch/pytorch/issues/68727,1,是,否
-73176,torch.nn.MultiLabelMarginLoss,https://github.com/pytorch/pytorch/issues/73176,1,是,否
-83326,torch.tril,https://github.com/pytorch/pytorch/issues/83326,2,是,否
-83328,torch.nn.Conv2d,https://github.com/pytorch/pytorch/issues/83328,1,是,否
-99148,torch.nn.FractionalMaxPool2d,https://github.com/pytorch/pytorch/issues/99148,1,是,否
+torch.nn.MaxUnpool3d",https://github.com/pytorch/pytorch/issues/83229,2,否,否,是
+83238,torch.nn.TripletMarginLoss,https://github.com/pytorch/pytorch/issues/83238,1,否,否,是
+83241,torch.nn.TripletMarginLoss,https://github.com/pytorch/pytorch/issues/83241,1,否,是,是
+83060,torch.empty_strided,https://github.com/pytorch/pytorch/issues/83060,1,否,否,是
+83153,torch.nn.Hardtanh,https://github.com/pytorch/pytorch/issues/83153,1,否,是,是
+83325,torch.nn.MaxPool1d,https://github.com/pytorch/pytorch/issues/83325,1,否,是,是
+67827,"torch.nn.MaxUnpool{1,2,3}d",https://github.com/pytorch/pytorch/issues/68727,1,否,是,否
+73176,torch.nn.MultiLabelMarginLoss,https://github.com/pytorch/pytorch/issues/73176,1,否,是,否
+83326,torch.tril,https://github.com/pytorch/pytorch/issues/83326,2,否,是,是
+83328,torch.nn.Conv2d,https://github.com/pytorch/pytorch/issues/83328,1,否,是,是
+99148,torch.nn.FractionalMaxPool2d,https://github.com/pytorch/pytorch/issues/99148,1,否,是,是
 99151,"torch.nn.functional.binary_cross_entropy
-torch.nn.functional.binary_cross_entropy_with_logits",https://github.com/pytorch/pytorch/issues/99151,2,是,否
-99221,torch.nn.functional.embedding_bag,https://github.com/pytorch/pytorch/issues/99221,1,是,否
-99226,torch.nn.Linear,https://github.com/pytorch/pytorch/issues/99226,1,是,是
-99259,torch.repeat_interleave,https://github.com/pytorch/pytorch/issues/99259,1,是,否
-99265,torch.addcmul,https://github.com/pytorch/pytorch/issues/99265,1,是,否
-99308,torch.floor_divide,https://github.com/pytorch/pytorch/issues/99308,1,拒绝,否
-99316,torch.linalg.lstsq,https://github.com/pytorch/pytorch/issues/99316,1,是,否
+torch.nn.functional.binary_cross_entropy_with_logits",https://github.com/pytorch/pytorch/issues/99151,2,否,是,是
+99221,torch.nn.functional.embedding_bag,https://github.com/pytorch/pytorch/issues/99221,1,否,是,是
+99226,torch.nn.Linear,https://github.com/pytorch/pytorch/issues/99226,1,是,是,是
+99259,torch.repeat_interleave,https://github.com/pytorch/pytorch/issues/99259,1,否,是,是
+99265,torch.addcmul,https://github.com/pytorch/pytorch/issues/99265,1,否,是,是
+99308,torch.floor_divide,https://github.com/pytorch/pytorch/issues/99308,1,否,,
+99316,torch.linalg.lstsq,https://github.com/pytorch/pytorch/issues/99316,1,否,否,是
 99410,"torch.nn.functional.multilabel_margin_loss
-torch.nn.MultiLabelMarginLoss",https://github.com/pytorch/pytorch/issues/99410,2,否,否
-99412,torch.nn.MaxPool1d,https://github.com/pytorch/pytorch/issues/99412,1,是,是
-89345,torch.nn.AvgPool1d,https://github.com/pytorch/pytorch/issues/89345,1,是,是
-89339,torch.matrix_power,https://github.com/pytorch/pytorch/issues/89339,2,是,否
-89347,torch.nn.ConstantPad1d,https://github.com/pytorch/pytorch/issues/89347,1,是,否
-89412,torch.nn.functional.conv1d,https://github.com/pytorch/pytorch/issues/89412,1,是,否
-89362,torch.nn.functional.embedding_bag,https://github.com/pytorch/pytorch/issues/89362,1,是,否
-89409,torch.nn.functional.max_unpool1d,https://github.com/pytorch/pytorch/issues/89409,1,是,否
-89382,torch.nn.silu,https://github.com/pytorch/pytorch/issues/89382,2,是,否
-89348,torch.where,https://github.com/pytorch/pytorch/issues/89348,1,是,否
-,torch.nn.FractionalMaxPool2d,"when kernel_size is a list of three int, v1.8 can return result, while v2.0 throws an exception.",1,是,否
-,torch.nn.functional.margin_ranking_loss,torch.nn.functional.margin_ranking_loss wont throw an exception when the dimensions of `target` and `inputs` are not the same in v1.8. v2.0 will throw an exception.,1,是,否
-,torch.nn.TripletMarginLoss,"when the dimensions of inputs aren't the same, v1.8 wont throw an exception, while v2.0 throws an exception.",1,是,否
-,torch.acos,the result in CPU isn't the same as GPU,1,是,否
-,torch.acosh,the result in CPU isn't the same as GPU,1,是,否
-,torch.cumprod,"the result in CPU isn't the same as GPU in torch.cumprod v1.8 when dimension is out of range. While in v2.0, both CPU and GPU throw exceptions.",1,是,否
-,torch.cumsum,"the result in CPU isn't the same as GPU in torch.cumsum v1.8 when dimension is out of range. While in v2.0, both CPU and GPU throw exceptions.",1,是,否
-,torch.logcumsumexp,"the result in CPU isn't the same as GPU in torch.logcumsumexp 1.8v when dimension is out of range. While in 2.0v, both CPU and GPU throw exceptions.",1,是,否
-,torch.nn.functional.l1_loss,"the result in CPU isn't the same as GPU in torch.nn.functional.l1_loss v1.8. CPU doesn’t support Long type, while GPU supports in v1.8. Both CPU and GPU support Long type in v2.0.",1,是,否
-,torch.sort,"the result in CPU isn't the same as GPU in torch.sort v1.8 when dimension is out of range. While in v2.0, both CPU and GPU throw exceptions.",1,是,否
+torch.nn.MultiLabelMarginLoss",https://github.com/pytorch/pytorch/issues/99410,2,否,否,是
+99412,torch.nn.MaxPool1d,https://github.com/pytorch/pytorch/issues/99412,1,是,是,是
+89345,torch.nn.AvgPool1d,https://github.com/pytorch/pytorch/issues/89345,1,是,是,否
+89339,torch.matrix_power,https://github.com/pytorch/pytorch/issues/89339,2,否,是,否
+89347,torch.nn.ConstantPad1d,https://github.com/pytorch/pytorch/issues/89347,1,否,是,否
+89412,torch.nn.functional.conv1d,https://github.com/pytorch/pytorch/issues/89412,1,否,是,否
+89362,torch.nn.functional.embedding_bag,https://github.com/pytorch/pytorch/issues/89362,1,否,否,否
+89409,torch.nn.functional.max_unpool1d,https://github.com/pytorch/pytorch/issues/89409,1,否,否,否
+89382,torch.nn.silu,https://github.com/pytorch/pytorch/issues/89382,2,否,是,否
+89348,torch.where,https://github.com/pytorch/pytorch/issues/89348,1,否,是,否
+,torch.nn.FractionalMaxPool2d,"when kernel_size is a list of three int, v1.8 can return result, while v2.0 throws an exception.",1,否,是,否
+,torch.nn.functional.margin_ranking_loss,torch.nn.functional.margin_ranking_loss wont throw an exception when the dimensions of `target` and `inputs` are not the same in v1.8. v2.0 will throw an exception.,1,否,是,否
+,torch.nn.TripletMarginLoss,"when the dimensions of inputs aren't the same, v1.8 wont throw an exception, while v2.0 throws an exception.",1,否,是,否
+,torch.acos,the result in CPU isn't the same as GPU,1,否,是,否
+,torch.acosh,the result in CPU isn't the same as GPU,1,否,是,否
+,torch.cumprod,"the result in CPU isn't the same as GPU in torch.cumprod v1.8 when dimension is out of range. While in v2.0, both CPU and GPU throw exceptions.",1,否,是,否
+,torch.cumsum,"the result in CPU isn't the same as GPU in torch.cumsum v1.8 when dimension is out of range. While in v2.0, both CPU and GPU throw exceptions.",1,否,是,否
+,torch.logcumsumexp,"the result in CPU isn't the same as GPU in torch.logcumsumexp 1.8v when dimension is out of range. While in 2.0v, both CPU and GPU throw exceptions.",1,否,是,否
+,torch.nn.functional.l1_loss,"the result in CPU isn't the same as GPU in torch.nn.functional.l1_loss v1.8. CPU doesn’t support Long type, while GPU supports in v1.8. Both CPU and GPU support Long type in v2.0.",1,否,是,否
+,torch.sort,"the result in CPU isn't the same as GPU in torch.sort v1.8 when dimension is out of range. While in v2.0, both CPU and GPU throw exceptions.",1,否,是,否
